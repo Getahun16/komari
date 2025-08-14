@@ -56,7 +56,7 @@ export default function BrandStoryPage() {
 
         <div className="rounded-2xl overflow-hidden shadow-2xl">
           <Image
-            src="/images/brand.jpeg"
+            src="/images/flav.jpg"
             alt="Komari bottle"
             width={640}
             height={480}

@@ -7,7 +7,7 @@ export default function Products() {
     {
       name: "Komari Sparkling Water",
       description: "Pure, crisp, and naturally refreshing.",
-      image: "/images/product1.jpeg",
+      image: "/images/arada1.jpeg",
     },
     {
       name: "Komari Fruit Blend",

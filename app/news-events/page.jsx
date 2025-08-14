@@ -7,13 +7,13 @@ const news = [
     title: "Komari launches seasonal Mango flavor",
     date: "Aug 1, 2025",
     excerpt: "A new limited seasonal mango beverage, made with local mangoes.",
-    image: "/images/product2.jpeg",
+    image: "/images/arada2.jpeg",
   },
   {
     title: "Komari partners with local farmers",
     date: "May 12, 2025",
     excerpt: "New sourcing partnership to support local fruit farmers.",
-    image: "/images/product1.jpeg",
+    image: "/images/event.jpeg",
   },
 ];
 

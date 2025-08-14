@@ -20,7 +20,7 @@ export default function Hero() {
         </div>
         <div className="flex-1 mt-10 md:mt-0 flex justify-center">
           <Image
-            src="/images/images.jpeg"
+            src="/images/factory.jpeg"
             alt="Komari Beverage Bottle"
             width={300}
             height={300}
