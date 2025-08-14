@@ -90,26 +90,23 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* Mobile Menu with scaleY animation */}
-      <div
-        className={`md:hidden bg-white shadow-md origin-top transform transition-transform duration-300 ${
-          isOpen ? "scale-y-100 py-4" : "scale-y-0 py-0"
-        }`}
-        style={{ transformOrigin: "top" }}
-      >
-        <div className="flex flex-col px-6 space-y-3 font-semibold text-gray-700">
-          {navLinks.map(({ href, label }) => (
-            <Link
-              href={href}
-              key={href}
-              className="block hover:text-emerald-600 transition"
-              onClick={() => setIsOpen(false)}
-            >
-              {label}
-            </Link>
-          ))}
+      {/* Mobile Menu */}
+      {isOpen && (
+        <div className="md:hidden bg-white shadow-md py-4">
+          <div className="flex flex-col px-6 space-y-3 font-semibold text-gray-700">
+            {navLinks.map(({ href, label }) => (
+              <Link
+                href={href}
+                key={href}
+                className="block hover:text-emerald-600 transition"
+                onClick={() => setIsOpen(false)}
+              >
+                {label}
+              </Link>
+            ))}
+          </div>
         </div>
-      </div>
+      )}
     </nav>
   );
 }
